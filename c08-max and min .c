@@ -12,6 +12,14 @@ int main()
     if(c>max){
         max=c;
     }
-    
+    if(b<min){
+        min=b;
+    }
+    if(c<min){
+        min=c;
+        
+    }
+    printf("max=%d and min=%d,max,min);
+           return 0;
     
 }
